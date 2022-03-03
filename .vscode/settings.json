@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "*.": false,
+        "*.*": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "build": false,
+        "cypress": false,
+        "node_modules": false,
+        "public": false,
+        "src/*.*": false,
+        "src/*.d.ts": false,
+        "src/*.ts": false,
+        "src/assets": false
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.addMissingImports": true,
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.autoSaveDelay": 1000,
+    "files.autoSave": "afterDelay"
+}
